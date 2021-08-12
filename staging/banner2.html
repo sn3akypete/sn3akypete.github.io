@@ -1,0 +1,32 @@
+<html>
+<head>
+<!-- Autopilot petestaging capture code -->
+<script>
+	window.ap3c = window.ap3c || {};
+	var ap3c = window.ap3c;
+	ap3c.cmd = ap3c.cmd || [];
+	ap3c.cmd.push(function() {
+		ap3c.init('YIeg0YItVPeYNNrycGV0ZXN0YWdpbmc', 'https://capture-api-master.stgautopilotapp.com/');
+		ap3c.track({v: 0});
+	});
+	var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://static.ap3stg.com/capture/master/capture.js";
+	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+</script>
+<style>
+	body {background-color: powderblue;}
+</style>
+</head>
+<body>
+	<h1>Testing stating banner by clicks</h1>
+    <ul>
+    <li><a id="show-capture">SHow capture link by ID</a></li>
+    <li><a id="something-else">Don't show capture by ID</a></li>
+    <li><a class="show-capture">Show capture link by class</a></li>
+    <li><a class="something else">dont show capture link by class</a></li>
+    <li><button id="show-capture2" value="SHow capture link by ID"></li>
+    <li><button id="something-else2" value="Don't show capture by ID"></li>
+    <li><button class="show-capture" value="Show capture link by class"></li>
+    <li><button class="something else" value="dont show capture link by class"></li>
+</ul>
+</body>
+</html>
