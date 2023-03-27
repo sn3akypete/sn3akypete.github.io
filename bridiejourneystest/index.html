@@ -7,7 +7,7 @@
         var ap3c = window.ap3c;
         ap3c.cmd = ap3c.cmd || [];
         ap3c.cmd.push(function () {
-            ap3c.init('Y38BVTBJ9OZ6ARjcYnJpZGllam91cm5leXN0ZXN0', 'https://capture-api.au.autopilotapp.com/');
+            ap3c.init('Y38BVTBJ9OZ6ARjcYnJpZGllam91cm5leXN0ZXN0', 'https://capture-api.au.autopilotapp.com/', {enableTalk: true});
             ap3c.track({ v: 0 });
         });
         ap3c.activity = function (act) { ap3c.act = (ap3c.act || []); ap3c.act.push(act); };
